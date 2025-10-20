@@ -20,6 +20,18 @@ I’ve read the project specification for Project 1. The assignment requires thr
 
 
 
+## 2025-10-19 15:50
+### Thoughts so far
+Started writing the driver and logger parts. The logger writes to the file with timestamps, which looks clean. Had a small issue where it froze waiting for input, but I fixed that by making Python print and flush right away. That made everything respond instantly.
+
+### Plan for this session
+- Make the driver start both the logger and encryption programs.
+- Build the menu with options like “password”, “encrypt”, “decrypt”, “history”, and “quit”.
+- Make sure everything gets logged.
+- Test that I can store and reuse strings in a session.
+
+### Reflection
+Got most of the structure working. The driver starts both programs and the logging works. The history feature saves what I type, and the password isn’t stored like the instructions said. It’s starting to feel like a real system now. Next I’ll finish the encryption logic so it’s ready to test end-to-end.
 
 
 
