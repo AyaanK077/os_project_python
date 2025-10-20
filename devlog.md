@@ -50,7 +50,7 @@ The encryption code is finally working right. I tested it with the example from 
 The cipher works great now. It correctly encrypts and decrypts, and it shows a proper “RESULT” when it succeeds. It also gives “ERROR Password not set” if I try to encrypt before setting one. Feels good to see it working. Next up: connecting this to the driver so I can control everything from one place.
 
 
-## 2025-10-19 18:45
+## 2025-10-19 9:45
 
 ### Thoughts so far
 
@@ -68,6 +68,7 @@ Everything is finally connected. The driver, logger, and encryption programs can
 ### Reflection
 
 Got through everything I wanted. The program feels stable now. I tested a few runs like “password → encrypt → decrypt → quit” and the logs matched exactly what happened.This project felt very stressful and tedious, but in the end I learned a lot and I am proud to have a fully working program.
+
 
 
 
