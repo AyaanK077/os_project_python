@@ -29,6 +29,25 @@ Started writing the driver and logger parts. The logger writes to the file with 
 Got most of the structure working. The driver starts both programs and the logging works. The history feature saves what I type, and the password isn’t stored like the instructions said. It’s starting to feel like a real system now. Next I’ll finish the encryption logic so it’s ready to test end-to-end.
 
 
+## 2025-10-19 17:15
+
+### Thoughts so far
+
+The encryption code is finally working right. I tested it with the example from the project sheet, and it gave the exact same output (HELLO key, WORLD → DSCWR). It took me a bit to fix how it handled upper and lowercase letters, but now it’s all consistent.
+
+
+### Plan for this session
+
+- Get the encryption program to accept all four commands (PASS, ENCRYPT, DECRYPT, QUIT).
+- Make it show “RESULT” or “ERROR” depending on what happens.
+- Make sure it only works on letters (no numbers or spaces).
+- Run a few tests to confirm the math behind the cipher.
+
+
+### Reflection
+
+The cipher works great now. It correctly encrypts and decrypts, and it shows a proper “RESULT” when it succeeds. It also gives “ERROR Password not set” if I try to encrypt before setting one. Feels good to see it working. Next up: connecting this to the driver so I can control everything from one place.
+
 
 
 
