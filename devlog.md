@@ -1,7 +1,7 @@
  Development Log
 
 
-## 2025-10-19 16:30
+## 2025-10-18 5:30
 
 ### Thoughts so far
 
@@ -15,7 +15,7 @@ I’ve read the project specification for Project 1. The assignment requires thr
 - Document how to run and maintain the project in the README.
 
 
-## 2025-10-19 15:50
+## 2025-10-19 3:30
 ### Thoughts so far
 Started writing the driver and logger parts. The logger writes to the file with timestamps, which looks clean. Had a small issue where it froze waiting for input, but I fixed that by making Python print and flush right away. That made everything respond instantly.
 
@@ -27,6 +27,7 @@ Started writing the driver and logger parts. The logger writes to the file with 
 
 ### Reflection
 Got most of the structure working. The driver starts both programs and the logging works. The history feature saves what I type, and the password isn’t stored like the instructions said. It’s starting to feel like a real system now. Next I’ll finish the encryption logic so it’s ready to test end-to-end.
+
 
 
 
